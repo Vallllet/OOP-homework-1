@@ -204,4 +204,6 @@ print(super_lecturer1)
 print(super_lecturer2)
 print(Student.count_avg_all(all_students, course='Python')) #подсчет средней оценки за домашние задания по всем студентам в рамках конкретного курса
 print(Lecturer.count_avg_all(all_lecturers, course='Python')) #подсчет средней оценки за лекции всех лекторов в рамках курса
+print(super_lecturer1 == super_lecturer2)
+print(super_lecturer1 < super_lecturer2)
 
