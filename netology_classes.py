@@ -65,7 +65,7 @@ class Student:
         return avg_course
 
     @classmethod
-    def count_avg_all(cls, *args, course):
+    def count_avg_all(cls, list_of_students, course):
         all_sum = 0
         all_count = 0
         for student in all_students:
@@ -117,7 +117,7 @@ class Lecturer(Mentor):
         return avg_course
 
     @classmethod
-    def count_avg_all(cls, *args, course):
+    def count_avg_all(cls, list_of_lecturers, course):
         all_sum = 0
         all_count = 0
         for lecturer in all_lecturers:
