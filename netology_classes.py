@@ -68,7 +68,7 @@ class Student:
     def count_avg_all(cls, list_of_students, course):
         all_sum = 0
         all_count = 0
-        for student in all_students:
+        for student in list_of_students:
             all_sum += student.count_avg_course(course)
             all_count += 1
         avg_all = all_sum / all_count
@@ -120,7 +120,7 @@ class Lecturer(Mentor):
     def count_avg_all(cls, list_of_lecturers, course):
         all_sum = 0
         all_count = 0
-        for lecturer in all_lecturers:
+        for lecturer in list_of_lecturers:
             all_sum += lecturer.count_avg_course(course)
             all_count += 1
         avg_all = all_sum / all_count
